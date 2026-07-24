@@ -1,22 +1,64 @@
 aid: bebop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bebop.png
 name: Bebop
-description: Bebop is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bebop (bebop.co) was a stealth-mode enterprise software startup founded by
+  Diane Greene, co-founder and former CEO of VMware, building a development platform intended
+  to make it easier to build and maintain enterprise applications. The company never shipped
+  a public product, developer portal, or API, and was acquired by Google on November 19, 2015
+  for approximately $380 million, at which point Diane Greene was named head of Google's newly
+  consolidated enterprise cloud business (Google for Work, Cloud Platform, and Google Apps).
+  The acquired technology was later folded into Google Hire, which Google shut down in 2019.
+  Bebop is retained in the API Evangelist network as a historical a16z portfolio record; it has
+  no live domain, no public API surface, and no developer artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/bebop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: Google
+x-acquired-date: '2015-11-19'
+x-acquisition-amount-usd: 380000000
+x-founders:
+- Diane Greene
+x-former-domain: bebop.co
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Acquired
+- Enterprise Software
+- Application Development
+- Cloud
+- Historical
+- No API
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: Company acquired by Google 2015; bebop.co does not resolve (no A record, SPF
+    "v=spf1 -all", Google Domains NS). No developer portal, docs, GitHub org, or API
+    surface exists to enrich. github.com/bebop (bebop.bio, synthetic biology) and
+    github.com/bebop-inc (Tokyo) are unrelated companies.
