@@ -33,6 +33,9 @@ description: Bebop (bebop.co) was a stealth-mode enterprise software startup fou
   Bebop is retained in the API Evangelist network as a historical a16z portfolio record; it has
   no live domain, no public API surface, and no developer artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/bebop/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Bebop is retained in the API Evangelist network as a historical a16z portfolio record; it has no live domain, no public API surface, and no developer artifacts to enrich."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
